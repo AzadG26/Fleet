@@ -26,7 +26,8 @@ export function DailyDataBook() {
   const [loading, setLoading] = useState(false);
 
   // Config
-  const API_URL = "http://localhost:5000";
+  // const API_URL = "http://localhost:5000";
+  const API_URL = "https://gd-2-0-clean.onrender.com/";
   const COMPANY_ID = "2f762c5e-5274-4a65-aa66-15a7642a1608";
   const GODOWN_ID = "fbf61954-4d32-4cb4-92ea-d0fe3be01311";
 
