@@ -49,7 +49,7 @@ import {
 import { toast } from "sonner";
 import { formatINR } from "../utils/currencyFormat";
 
-const API = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API = process.env.REACT_APP_API_URL || "https://gd-2-0-clean.onrender.com/";
 
 export default function RatesUpdate() {
   // data
