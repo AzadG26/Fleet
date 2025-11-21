@@ -24,7 +24,7 @@ import { Calendar, RefreshCcw } from "lucide-react";
 import { formatDate } from "../utils/dateFormat";
 import { toast } from "sonner";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://gd-2-0-clean.onrender.com/";
 
 export default function MaalIn() {
   const [maalIn, setMaalIn] = useState([]);
